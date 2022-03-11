@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 :root {
-    --bg-gray: rgb(200, 200, 223);
-    --color-primary: darkolivegreen;
+    --bg-gray: rgb(236, 236, 247);
+    --color-primary: rgb(122, 156, 63);
     --white: #fff;
     --text-gray: #4a4a4a;
 }
@@ -63,7 +63,7 @@ a, a:hover {
 }
 
 .dsmovie-card {
-    width: 360px;
+    width: 100%;
 }
 
 .dsmovie-card img {
@@ -73,17 +73,20 @@ a, a:hover {
 
 .dsmovie-card-description {
     background-color: var(--white);
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     border-radius: 0 0 8px 8px;
+    min-height: 150px;
 }
 
 .dsmovie-card-description h3 {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .dsmovie-btn, .dsmovie-btn:hover {
